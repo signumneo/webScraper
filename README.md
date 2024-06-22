@@ -14,8 +14,9 @@ Welcome to the Web Scraper project! This project is designed to help you scrape 
 - Python 3.6+
 - Pandas
 - Git
-- A web browser (Chrome/Firefox)
+- A web browser (Chrome/Firefox). Paste it browser console. 
 - Optional: Homebrew (for macOS users)
+- Modify the DOM elements as required for precise scrapping and extraction. 
 
 ## 🛠️ Setup
 
