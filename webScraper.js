@@ -1,3 +1,48 @@
+/**
+ * Script to scrape course information from a webpage and collect course durations.
+ * 
+ * This script performs the following tasks:
+ * 1. Clears the console and logs the start of the script.
+ * 2. Defines a function to get all course titles and URLs from the current page.
+ * 3. Defines a function to navigate to a specific or next page.
+ * 4. Defines a function to get the total number of pages.
+ * 5. Defines a function to fetch the course duration by opening the course URL in a new tab.
+ * 6. Collects all courses from all pages and stores them in an array.
+ * 7. Fetches the duration for each course and appends it to the course data.
+ * 8. Displays all collected courses in a tabular format and downloads the data as a JSON file.
+ * 9. Handles and logs any errors that occur during script execution.
+ * 
+ * Note:
+ * - The script assumes the webpage structure and selectors remain constant.
+ * - Delays are included to ensure page loads and avoid rate limiting.
+ * - Ensure the script is run in a browser environment with access to the DOM.
+ * 
+ * Usage:
+ * Copy and paste the script into the browser console on the target webpage.
+ */
+/**
+ * Script to scrape course information from a webpage and collect course durations.
+ * 
+ * This script performs the following tasks:
+ * 1. Clears the console and logs the start of the script.
+ * 2. Defines a function to get all course titles and URLs from the current page.
+ * 3. Defines a function to navigate to a specific or next page.
+ * 4. Defines a function to get the total number of pages.
+ * 5. Defines a function to fetch the course duration by opening the course URL in a new tab.
+ * 6. Collects all courses from all pages and stores them in an array.
+ * 7. Fetches the duration for each course and appends it to the course data.
+ * 8. Displays all collected courses in a tabular format and downloads the data as a JSON file.
+ * 9. Handles and logs any errors that occur during script execution.
+ * 
+ * Note:
+ * - The script assumes the webpage structure and selectors remain constant.
+ * - Delays are included to ensure page loads and avoid rate limiting.
+ * - Ensure the script is run in a browser environment with access to the DOM.
+ * 
+ * Usage:
+ * Copy and paste the script into the browser console on the target webpage.
+ */
+
 (async function() {
     try {
         // Clear console to start fresh

@@ -1,3 +1,27 @@
+"""
+This script processes a JSON file containing course data, extracts and converts course durations, 
+and outputs a sorted CSV file along with the total duration of all courses.
+
+Script functionality:
+1. Load the JSON data from 'courses_with_duration.json'.
+2. Convert the JSON data into a pandas DataFrame.
+3. Define a function to convert course durations from hours to seconds.
+4. Apply the conversion function to the 'duration' column to create a new 'duration_seconds' column.
+5. Sort the DataFrame in ascending order based on the 'duration_seconds' column.
+6. Calculate the total duration of all courses in seconds.
+7. Convert the total duration from seconds to 'hh:mm:ss' format.
+8. Drop the 'duration_seconds' column from the DataFrame.
+9. Save the sorted DataFrame to a CSV file named 'courses_sorted_by_duration.csv'.
+10. Print the total duration of all courses in 'hh:mm:ss' format.
+
+Usage:
+- Ensure the 'courses_with_duration.json' file is in the same directory as this script.
+- Run the script to generate 'courses_sorted_by_duration.csv' and print the total duration.
+
+Note:
+- The 'duration' field in the JSON file should be in a format that can be parsed as a float number of hours.
+"""
+
 import json
 import pandas as pd
 
